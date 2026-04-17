@@ -63,7 +63,7 @@
 
         <div class="field">
 
-          <label for="last-name">First Name:</label>
+          <label for="last-name">Last Name:</label>
 
           <input id="last-name" v-model="lastName" type="text"/>
 

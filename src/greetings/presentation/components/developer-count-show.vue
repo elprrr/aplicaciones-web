@@ -1,4 +1,6 @@
 <script setup>
+import {toRefs} from "vue";
+
 const props = defineProps({
   developerCount: {
     type: Number,
@@ -6,7 +8,7 @@ const props = defineProps({
   }
 });
 
-const { developerCount } = props;
+const { developerCount } = toRefs(props);
 </script>
 
 <template>
